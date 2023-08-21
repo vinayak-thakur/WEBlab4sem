@@ -1,0 +1,28 @@
+<!-- A) INPUT: A NUMBER N OBTAINED USING PROMPT.
+        OUTPUT: THE FIRST N FIBONACCI NUMBERS             -->
+        <html>
+<head>
+<title> Fibonacci series </title>
+</head>
+
+<body>
+<center>
+<p class = "center"> FIBONACCI SERIES</p>
+<script>
+console.log(window)
+var f1=0;
+var f2=1;
+var f3;
+var num = prompt("Enter a number");
+document.write(f1+"<br>")
+document.write(f2+"<br>")
+for (var i=2;i<num;i++){
+f3 = f1+f2;
+document.write(f3+"<br>")
+f1=f2;
+f2=f3;
+}
+</script>
+</center>
+</body>
+</html>
