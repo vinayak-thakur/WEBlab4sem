@@ -3,19 +3,19 @@ body{
 background-color: coral;
 }
 
-.link: {
+a:link {
 color : green ;
 }
 
-.link:visited {
+a:visited {
 color : grey ;
 }
 
-.link:hover {
+a:hover {
 color : black ;
 }
 
-.link:active {
+a:active {
 color : blue ;
 }
 
